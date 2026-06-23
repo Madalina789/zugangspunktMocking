@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="zugang.ZugangspunktTest2" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-06-19T13:50:29.809Z" hostname="Gheorghes-MacBook-Pro-2.local" time="1.767">
+  <properties/>
+  <testcase name="Alarm wenn eine Person sich mit der Identität einer Person ,die sich bereits im Gebäude bifindet, Eingang zu schaffen" classname="zugang.ZugangspunktTest2" time="1.466"/>
+  <testcase name="Es konnte kein Bild korrekt aufgenommen werden" classname="zugang.ZugangspunktTest2" time="0.005"/>
+  <testcase name="Die eingescannte Person stimmt nicht mit den biometrischen Daten aus der Datenbank überein und die Person mit derselben ID befindet sich bereits im Gebäude" classname="zugang.ZugangspunktTest2" time="0.007"/>
+  <testcase name="Person will das Gebäude betreten" classname="zugang.ZugangspunktTest2" time="0.008"/>
+  <testcase name="Die Person wurde nicht in der datenbank gefunden" classname="zugang.ZugangspunktTest2" time="0.006"/>
+  <testcase name="Person will das Gebäude verlassen und ihre ID konnte gescannt werden" classname="zugang.ZugangspunktTest2" time="0.015"/>
+  <testcase name="Person will das Gebäude verlassen aber ihre ID kann nicht gescannt werden" classname="zugang.ZugangspunktTest2" time="0.005"/>
+  <testcase name="Person, die erfolgreich identifiziert wurde hat keine Berechtigung ins Gebäude einzutreten" classname="zugang.ZugangspunktTest2" time="0.007"/>
+  <testcase name="Der Ausweis konnte nicht gelesen werden oder es gab keinen zum Lesen" classname="zugang.ZugangspunktTest2" time="0.004"/>
+  <testcase name="Alarm wird ausgelöst wenn biometrische Daten nicht übereinstimmen" classname="zugang.ZugangspunktTest2" time="0.005"/>
+  <testcase name="Personen,die sich abgemeldet haben werden von der Übersicht über alle sich im Gebäude befindenden Personen gelöscht" classname="zugang.ZugangspunktTest2" time="0.108"/>
+  <testcase name="Personen, die sich im Gebäude befindet werden eingetragen" classname="zugang.ZugangspunktTest2" time="0.109"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/dmga/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.15/b4cc9d88d5de562bf75b3a54ab436ad01b3f72d/byte-buddy-agent-1.14.15.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

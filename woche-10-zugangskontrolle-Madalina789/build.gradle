@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+    id("info.solidsoft.pitest") version "1.19.0"
+}
+
+pitest {
+    targetClasses = ['zugang.*'] // Das muss auf das Projekt angepasst werden
+    pitestVersion = '1.23.1'
+    junit5PluginVersion = "1.2.3"
+    threads = 8 // Nicht mehr, als die CPU an Hyperthreads bereitstellt
+    outputFormats = ['HTML']
+    timestampedReports = false
+}
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.mockito:mockito-core:5.12.0'
+    testImplementation 'org.assertj:assertj-core:3.25.3'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.2'
+}
+
+test {
+    useJUnitPlatform()
+}
